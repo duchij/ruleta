@@ -1,0 +1,2 @@
+# ruleta
+hra na ruletu
