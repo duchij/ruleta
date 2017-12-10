@@ -65,6 +65,7 @@ namespace ruleta
             Regex reg = null;
 
             bool res = false;
+            int t = 0;
             foreach (string key in rules)
             {
                 reg = new Regex(key);
@@ -73,6 +74,7 @@ namespace ruleta
                     res = true;
                     break;
                 }
+                t++;
             }
 
             return res;
@@ -83,6 +85,8 @@ namespace ruleta
             get { return this.field[num]; }
             //set { this.field[num].color = value ; this.field[num].num = num; }
         }
+
+        //public setBat
 
 
 
