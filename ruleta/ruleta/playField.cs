@@ -7,6 +7,13 @@ using System.Text.RegularExpressions;
 
 namespace ruleta
 {
+
+    struct bet
+    {
+        public enum typ { number, color, even, column, range};
+        public int num;
+
+    }
     class playField
     {
 
