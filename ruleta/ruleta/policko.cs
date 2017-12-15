@@ -23,7 +23,7 @@ namespace ruleta
             get; set;
         }
 
-        public int row
+        public int col
         {
             get; set;
         }
@@ -34,7 +34,7 @@ namespace ruleta
             this.color = color;
             this.even = even;
 
-            this.row = 0;
+            this.col = 0;
             
             
         }

@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ball.cs" />
+    <Compile Include="Bat.cs" />
+    <Compile Include="lang1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lang1.resx</DependentUpon>
+    </Compile>
     <Compile Include="Person.cs" />
     <Compile Include="playField.cs" />
     <Compile Include="policko.cs" />
@@ -51,6 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="lang1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>lang1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
